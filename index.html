@@ -13,9 +13,11 @@
   <!-- CSS Style Stylesheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 
-  <!-- JavaScript -->
-  <script type="text/javascript" src="javascript/script.js"></script>
+  <!-- Javascript -->
+  <script src="https://kit.fontawesome.com/1281ff2475.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -24,30 +26,25 @@
 
       <!-- Nav Bar -->
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a href="#" class="navbar-brand">
-          <span class="d-inline-block d-lg-none">DLS</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav ml-auto  mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#Home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#About">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#book">Books</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="additional_works.html">Additional Works</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mailto:loristonsboom@hotmail.com">Contact</a>
-            </li>
+      <nav class="navbar fixed-top navbar-light navbar-expand-lg navbar-template">
+        <div class="d-flex flex-row order-2 order-lg-3">
+          <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link px-2" href="https://www.facebook.com/loriston.scott?epa=SEARCH_BOX" target="_blank"><span class="fa fa-facebook"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="https://www.linkedin.com/in/dloristonscott/" target="_blank"><span class="fa fa-linkedin"></span></a></li>
+          </ul>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse order-3 order-lg-2" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#bottom">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#middle">Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="additional_works.html">Additional Works</a></li>
+            <li class="nav-item"><a class="nav-link" href="mailto:loristonsboom@hotmail.com">Contact</a></li>
+
+
           </ul>
         </div>
       </nav>
@@ -63,18 +60,16 @@
         <div class="column" style="background-color:#ffffff;">
           <blockquote class="blockquote">
             Let’s cut to the chase. There are three luxuries you do not have, a big house, an expensive car, and time. So, let’s get down to business.
-<br />
-<footer>
-  <cite>
-    Results Guaranteed
-  </cite>
-
-</footer>
-
+            <br />
+            <footer>
+              <cite>
+                Results Guaranteed
+              </cite>
+            </footer>
           </blockquote>
         </div>
 
-        <img class="arrow" src="images/arrow.png" alt="arrow" />
+        <img class="diamond" src="images/diamond.png" alt="diamond-shape" />
 
 
         <!-- Top Right -->
@@ -95,9 +90,9 @@
       </div>
 
       <!-- Books -->
-      <div class="middle">
+      <div id="middle">
         <em>AVAILABLE NOW!</em>
-        <img id="book" src="images/resultsguaranteedopenbook.png" alt="D. Loriston Scott">
+        <img class="book" src="images/resultsguaranteedopenbook.png" alt="D. Loriston Scott">
         <p class="lead">
           An overweight janitor hires a psychopathic personal trainer to lose thirty pounds in thirty days to collect a million dollar inheritance.
         </p>
@@ -114,13 +109,14 @@
         <div class="buy">
           <a href="https://www.amazon.com/Results-Guaranteed-D-Loriston-Scott-ebook/dp/B08K1PWT6W/ref=sr_1_1?dchild=1&keywords=results+guaranteed&qid=1601073318&s=digital-text&sr=1-1" target="_blank" class="Buy-Button">Buy Now</a>
         </div>
+
       </div>
     </div>
 
     <!-- About -->
-    <div class="bottom">
-      <h5 id="About">ABOUT</h5>
-      <img class="shot2" src="images/dls.png" alt="D. Loriston Scott">
+    <div id="bottom">
+      <h5>ABOUT</h5>
+      <img class="shot2" src="images/dls.jpg" alt="D. Loriston Scott">
       <p>
         D. Loriston Scott is an author, playwright and produced screenwriter.
       </p>

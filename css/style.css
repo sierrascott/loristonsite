@@ -3,17 +3,27 @@
   right: 30px;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #F8F9FA;
+  }
+
 .top {
-  margin-top: 20px;
+  position: relative;
+  margin-top: 50px;
   margin-bottom: -75px;
 }
 
-.arrow {
+.diamond {
   position: absolute;
   top: 625px;
   width: 80%;
   left: -12%;
-    transform: rotate(20deg);
+    transform: rotate(15deg);
 }
 
 .column {
@@ -49,6 +59,8 @@ h3 {
 }
 
 .blockquote {
+  display: block;
+  width: 85%;
   margin-top: 100px;
   margin-left: 75px;
   font-size: 2.5rem;
@@ -134,7 +146,7 @@ p {
   color: #ffffff;
 }
 
-#book {
+.book {
   width: 40%;
   margin-top: 40px;
   padding: 70px 0 70px 0;
@@ -142,7 +154,8 @@ p {
  padding: 0 10px 0 0;
  transform: rotate(-10deg);
 }
-.middle {
+#middle {
+  position: relative;
   margin: -20px 30px 30px 30px;
   padding: 10px 30px 10px 30px;
 background-color:#000000;
@@ -154,6 +167,7 @@ left: 650px;
 margin-top: -25px;
 margin-bottom: 30px;
 }
+
 
 .Buy-Button {
 	box-shadow:inset 0px 1px 0px 0px #f29c93;
@@ -179,7 +193,8 @@ margin-bottom: 30px;
 	top:1px;
 }
 
-.bottom {
+
+#bottom {
   text-align: justify;
   color: #ffffff;
   overflow-wrap: break-word;
@@ -210,6 +225,7 @@ margin-bottom: 30px;
   font-size: 0.75rem;
   padding: 20px;
 }
+
 
 .posters {
   margin: 100px 200px 200px 275px;
