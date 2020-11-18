@@ -276,10 +276,10 @@ blockquote cite:before {
 }
 .lit{
   float:left;
-  width: 50%;
+  width: 40%;
 }
 .buy-lit {
-  margin-left: 65%;
+  margin-left: 60%;
   margin-top: -25px;
   margin-bottom: 12vw;
 }
