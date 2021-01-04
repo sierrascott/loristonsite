@@ -55,7 +55,7 @@ h2 {
 
 h3 {
   text-align: center;
-  color: #ffffff;
+  color: #fff;
 }
 
 .blockquote {
@@ -98,7 +98,7 @@ em {
   margin-top: 30px;
   text-align: center;
   font-size: 5rem;
-  color: #ffffff;
+  color: #fff;
 }
 
 h5 {
@@ -106,7 +106,7 @@ h5 {
   margin-top: 30px;
   text-align: center;
   font-size: 4rem;
-  color: #ffffff;
+  color: #fff;
 
 }
 
@@ -115,7 +115,7 @@ h6 {
   font-size: 1rem;
   overflow-wrap: break-word;
   margin: 0 20px 0 20px;
-  color: #ffffff;
+  color: #fff;
 
 
 }
@@ -143,7 +143,7 @@ background-color: #81945f;
 p {
   margin: 50px 0 50px 0;
   overflow-wrap: break-word;
-  color: #ffffff;
+  color: #fff;
 }
 
 .book {
@@ -196,10 +196,10 @@ margin-bottom: 30px;
 
 #bottom {
   text-align: justify;
-  color: #ffffff;
+  color: #fff;
   overflow-wrap: break-word;
-  margin: 0 20px 0 20px;
-  padding: 10px 30px 10px 30px;
+  margin: 0 20px;
+  padding: 10px 120px;
   background-color:#8f9094;
 }
 .bottom-container {
