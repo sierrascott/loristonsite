@@ -59,7 +59,7 @@ p {
 }
 
 .navbar {
-  position: relative;
+  position: sticky;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
